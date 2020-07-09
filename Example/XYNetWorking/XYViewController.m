@@ -7,6 +7,7 @@
 //
 
 #import "XYViewController.h"
+#import <XYNetWorking/UIImage+FCUtilities.h>
 
 @interface XYViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [UIImage fc_solidColorImageWithSize:CGSizeMake(100, 100) color:[UIColor redColor]];
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.frame = CGRectMake(0, 0, 100, 100);
+    imageView.image = image;
+    [self.view addSubview:imageView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,16 @@
+PODS:
+  - XYNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - XYNetWorking (from `../`)
+
+EXTERNAL SOURCES:
+  XYNetWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYNetWorking: 53cef0aecab50fee5ca7488685fe4e8419ccafde
+
+PODFILE CHECKSUM: a825e5b8409d91f7cc84e74ed8a029c46674346b
+
+COCOAPODS: 1.7.1

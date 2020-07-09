@@ -1,0 +1,22 @@
+{
+  "name": "XYNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of XYNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sheaxu/XYNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sheaxu": "xuxiaoyong@inke.cn"
+  },
+  "source": {
+    "git": "https://github.com/sheaxu/XYNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XYNetWorking/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module XYNetWorking {
+  umbrella header "XYNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

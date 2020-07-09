@@ -60,10 +60,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89BDF14765265CACEEBCC63C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A3AF22FFF4E08E1EADE8C05D /* XYNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYNetWorking.podspec; path = ../XYNetWorking.podspec; sourceTree = "<group>"; };
+		89BDF14765265CACEEBCC63C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3AF22FFF4E08E1EADE8C05D /* XYNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYNetWorking.podspec; path = ../XYNetWorking.podspec; sourceTree = "<group>"; };
 		AE045E997D6DB402CAF7D292 /* Pods_XYNetWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYNetWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3E4A1F83B45456E56F502DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3E4A1F83B45456E56F502DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DB9FAF3FBFCF260BAC9F5686 /* Pods_XYNetWorking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYNetWorking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BBDC2EBB0DD7C9A69109C1 /* Pods-XYNetWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNetWorking_Example.release.xcconfig"; path = "Target Support Files/Pods-XYNetWorking_Example/Pods-XYNetWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F7465373D623D7B108C8C596 /* Pods-XYNetWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNetWorking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYNetWorking_Tests/Pods-XYNetWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				F7465373D623D7B108C8C596 /* Pods-XYNetWorking_Tests.debug.xcconfig */,
 				3CAFC09C1A904A4CA61601AA /* Pods-XYNetWorking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sheaxu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6C94ZQLC3F;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +497,12 @@
 			baseConfigurationReference = 2F8058BAE37EE3CDECC90A3C /* Pods-XYNetWorking_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6C94ZQLC3F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYNetWorking/XYNetWorking-Prefix.pch";
 				INFOPLIST_FILE = "XYNetWorking/XYNetWorking-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = runnerisme.networking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +514,12 @@
 			baseConfigurationReference = F0BBDC2EBB0DD7C9A69109C1 /* Pods-XYNetWorking_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6C94ZQLC3F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYNetWorking/XYNetWorking-Prefix.pch";
 				INFOPLIST_FILE = "XYNetWorking/XYNetWorking-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = runnerisme.networking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
